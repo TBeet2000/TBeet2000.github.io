@@ -1,0 +1,60 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure that the body takes at least the full height of the viewport */
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+nav {
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+}
+nav a:hover {
+    background-color: #ddd;
+}
+.container {
+    max-width: 3200px;
+    margin: 20px auto;
+    padding: 0 20px;
+    display: flex;
+    flex: 1; /* Fill remaining vertical space */
+}
+.content {
+    margin-top: 10px;
+    flex: 1;
+}
+.image {
+    flex: 1;
+    margin-right: 20px;
+}
+.image img {
+    max-width: 90%;
+    height: auto;
+}
+h1{
+	color: #fff;
+}
+h2, h3 {
+    color: #333;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
