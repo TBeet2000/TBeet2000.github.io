@@ -45,6 +45,14 @@ nav a:hover {
     max-width: 90%;
     height: auto;
 }
+.tab4{
+    display: inline-block;
+    margin-left: 4em;
+}
+.tab8{
+    display: inline-block;
+    margin-left: 8em;
+}
 h1{
 	color: #fff;
 }
